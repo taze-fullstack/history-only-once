@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { 
   BrowserRouter as Router, 
   Route,
-  Switch
+  Switch,
 } from 'react-router-dom'
 import { hot } from 'react-hot-loader'
 
@@ -19,8 +19,8 @@ class App extends Component {
           <Header />
 
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
             <Route component={NoRouteMatch} />
           </Switch>
 
