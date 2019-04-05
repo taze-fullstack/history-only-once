@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { 
-  BrowserRouter as Router, 
+  HashRouter, 
   Route,
   Switch,
 } from 'react-router-dom'
@@ -14,7 +14,7 @@ import NoRouteMatch from './containers/404'
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter basename="/">
         <div className="App">
           <Header />
 
@@ -26,7 +26,7 @@ class App extends Component {
 
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
