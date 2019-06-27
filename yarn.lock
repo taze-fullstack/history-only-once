@@ -8780,10 +8780,10 @@ react-hot-loader@^4.8.2:
     shallowequal "^1.0.2"
     source-map "^0.7.3"
 
-react-id-swiper@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-id-swiper/-/react-id-swiper-2.1.1.tgz#e314295440e0e7d792e55a8ee0a83765728e3444"
-  integrity sha512-jmMkjSo32ajP6VfHQFQTAo8D+kW5jCwNBV7ZP1RCN5+01jMNvvfj8g8NGD0XuHrjUeHk9tp2TBMLPB1NBM62Vw==
+react-id-swiper@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-id-swiper/-/react-id-swiper-2.3.0.tgz#6eba464e4f5b1762f9c98e1546aef10bb8bb56ee"
+  integrity sha512-eCYFXyPAaX2jX7rsCaN5w9CPEEKmgNUDnskeACBu8Ui8vbIwPqRFUBRHBG/48/ZCTGR8wI8Fk1Ox8kHfw+6x0g==
   dependencies:
     object-assign "^4.1.1"
 
