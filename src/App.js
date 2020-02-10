@@ -8,6 +8,8 @@ import Home from './containers/Home';
 import About from './containers/About';
 import NoRouteMatch from './containers/404';
 
+import './stylesheets/main.scss';
+
 class App extends Component {
   render() {
     return (

@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export default class is404 extends Component {
-  render() {
-    return <div>404 page</div>;
-  }
-}
+const Is404 = () => {
+  return <div>404 page</div>;
+};
+
+export default Is404;
